@@ -34,10 +34,10 @@ Contribuições são bem-vindas! Se você tem sugestões de melhorias, correçõ
 Aqui estão algumas capturas de tela do sistema:
 
 ### Tela Inicial
-![Tela Inicial](assets/Pagina_inicial_do_Totten.png)
+![Tela Inicial](assets/paginaInicial.png)
 
 ### Modal de Opções de Exames
-![Modal de Opções de Exames](assets/Modal_de_geração_de_senha_de_exames_do_Totten.png)
+![Modal de Opções de Exames](assets/geracaoSenhaExame.png)
 
 
 
