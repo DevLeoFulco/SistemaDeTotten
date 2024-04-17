@@ -34,7 +34,7 @@ Contribuições são bem-vindas! Se você tem sugestões de melhorias, correçõ
 Aqui estão algumas capturas de tela do sistema:
 
 ### Tela Inicial
-![Logomarca Mary Exames](assets/Logo2024.png)
+![Tela inicial](assets/Modal de geração de senha de exames do Totten.png)
 
 ### Modal de Opções de Exames
 ![Modal de Opções de Exames](assets/geracaoSenhaExame.png)
