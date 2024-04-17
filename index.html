@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Mary Exames</title>
+    
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="assets/Logo2024.png" alt="Logomarca Mary Exames">
+    </div>
+    <div class="button-container">
+        <a class="button" href="#" onclick="gerarSenha('Recepção')">Recepção</a>
+        <a class="button" href="#" onclick="exibirModal('exames')">Exames</a>
+        <a class="button" href="#" onclick="exibirModal('consulta')">Consulta</a>
+    </div>
+
+    <!-- Meu modal para Exames -->
+    <div id="modalExames" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('exames')">&times;</span>
+            <h2>Opções de Exames</h2>
+            <button class="button" onclick="gerarSenha('Pegar Exames')">Pegar Exames</button>
+            <button class="button" onclick="gerarSenha('Fazer Exames')">Fazer Exames</button>
+        </div>
+    </div>
+
+    <!-- Meu modal para Consulta -->
+    <div id="modalConsulta" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharModal('consulta')">&times;</span>
+            <h2>Opções de Consulta</h2>
+            <button class="button" onclick="gerarSenha('Agendar Consulta')">Agendar Consulta</button>
+            <button class="button" onclick="gerarSenha('Consultar')">Consultar</button>
+        </div>
+    </div>
+
+    <script src="scripts/index.js">        
+    </script>
+    
+</body>
+</html>
